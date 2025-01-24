@@ -11,3 +11,16 @@ document.addEventListener("DOMContentLoaded", function () {
     autoplay: 2000,
   }).mount();
 });
+
+$(document).ready(function () {
+  $(".hamburger-menu").click(function () {
+    $(".menu").toggleClass("show-menu");
+  });
+
+  // Close the menu when clicking outside of it
+  $(document).click(function (event) {
+    if (!$(event.target).closest(".hamburger-menu, .menu").length) {
+      $(".menu").removeClass("show-menu");
+    }
+  });
+});
