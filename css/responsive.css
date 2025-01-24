@@ -1,0 +1,157 @@
+/* Responsive Styles */
+
+/* Tablets (768px - 1024px) */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .main-banner {
+    height: 70vh;
+    padding: 0 5%;
+  }
+  .main-banner .text-content {
+    max-width: 500px;
+  }
+
+  .main-banner .text-content h1 {
+    font-size: 52px;
+    line-height: 55px;
+  }
+
+  .main-banner .shop-button {
+    padding: 12px 36px;
+    font-size: 16px;
+  }
+
+  .arrows {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: end;
+  }
+
+  .map {
+    height: 400px;
+  }
+  .map .map-content {
+    max-width: 300px;
+  }
+  .map .map-content h1 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .map .map-content p {
+    margin-bottom: 21px;
+    font-size: 27px;
+    line-height: 30px;
+  }
+
+  .map .map-content a {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+
+  .section-heading {
+    font-size: 28px;
+  }
+  .product-card .product-title {
+    line-height: 36px;
+    font-size: 22px;
+  }
+
+  .testimonials .testimonials-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+/* Mobile  */
+
+@media screen and (max-width: 767px) {
+  .main-banner {
+    height: 40vh;
+  }
+
+  .main-banner .text-content {
+    max-width: 100%;
+  }
+
+  .main-banner .text-content h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .main-banner .shop-button {
+    margin-top: 15px;
+    padding: 5px 15px;
+    font-size: 12px;
+  }
+
+  .arrows {
+    margin: 0px 0px 25px 0px;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 0 15px;
+  }
+
+  .product-card {
+    text-align: center;
+  }
+
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .map {
+    height: auto;
+    display: block;
+  }
+
+  .map .width-50 {
+    width: 100%;
+  }
+
+  .map .map-content {
+    width: 100%;
+    padding: 20px;
+  }
+  .map .map-content h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .map .map-content p {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .map .map-content a {
+    margin-bottom: 21px;
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+
+  .section-heading {
+    font-size: 25px;
+    line-height: 46px;
+  }
+
+  .product-card .product-title {
+    font-size: 18px;
+    line-height: 36px;
+  }
+
+  .testimonials {
+    padding: 50px 30px;
+  }
+
+  .testimonials .testimonials-content {
+    max-width: 100%;
+  }
+  .testimonials .testimonials-content p {
+    font-size: 15px;
+  }
+}
