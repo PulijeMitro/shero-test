@@ -12,6 +12,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Glide.js CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css"
+    />
   </head>
   <body>
     <!-- Header Section -->
@@ -63,34 +73,81 @@
           <img src="images/map.png" alt="Map" loading="lazy" />
         </div>
       </section>
-
       <section class="mt-75">
-        <div class="product-heading text-center">Featured Products</div>
-        <div class="flex-container mt-30">
-          <div class="product-card">
-            <div class="text-center">
-              <img src="images/image-04.png" alt="Image 4" loading="lazy" />
-            </div>
-            <h2 class="product-title">EMBROIDERY STABILIZER</h2>
+        <div class="section-heading text-center">Featured Products</div>
+        <div class="glide mt-30">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide product-card">
+                <div class="text-center">
+                  <img src="images/image-04.png" alt="Image 4" loading="lazy" />
+                </div>
+                <h2 class="product-title">EMBROIDERY STABILIZER</h2>
+              </li>
+              <li class="glide__slide product-card">
+                <div class="text-center">
+                  <img src="images/image-05.png" alt="Image 5" loading="lazy" />
+                </div>
+                <h2 class="product-title">CUBBIE GREY ELEPHANT</h2>
+              </li>
+              <li class="glide__slide product-card">
+                <div class="text-center">
+                  <img src="images/image-06.png" alt="Image 6" loading="lazy" />
+                </div>
+                <h2 class="product-title">KIMBERBELL CUP OF CHEER</h2>
+              </li>
+              <li class="glide__slide product-card">
+                <div class="text-center">
+                  <img src="images/image-07.png" alt="Image 7" loading="lazy" />
+                </div>
+                <h2 class="product-title">KIMBERBELL TWO SCOOPS</h2>
+              </li>
+              <li class="glide__slide product-card">
+                <div class="text-center">
+                  <img
+                    src="images/placeholders.png"
+                    alt="Image 8"
+                    loading="lazy"
+                  />
+                </div>
+                <h2 class="product-title">Placeholder image</h2>
+              </li>
+              <li class="glide__slide product-card">
+                <div class="text-center">
+                  <img
+                    src="images/placeholders.png"
+                    alt="Image 8"
+                    loading="lazy"
+                  />
+                </div>
+                <h2 class="product-title">Placeholder image</h2>
+              </li>
+              <li class="glide__slide product-card">
+                <div class="text-center">
+                  <img
+                    src="images/placeholders.png"
+                    alt="Image 8"
+                    loading="lazy"
+                  />
+                </div>
+                <h2 class="product-title">Placeholder image</h2>
+              </li>
+            </ul>
           </div>
-          <div class="product-card">
-            <div class="text-center">
-              <img src="images/image-05.png" alt="Image 5" loading="lazy" />
-            </div>
-            <h2 class="product-title">CUBBIE GREY ELEPHANT</h2>
-          </div>
-          <div class="product-card">
-            <div class="text-center">
-              <img src="images/image-06.png" alt="Image 6" loading="lazy" />
-            </div>
-            <h2 class="product-title">KIMBERBELL CUP OF CHEER</h2>
-          </div>
-          <div class="product-card">
-            <div class="text-center">
-              <img src="images/image-07.png" alt="Image 7" loading="lazy" />
-            </div>
-            <h2 class="product-title">KIMBERBELL TWO SCOOPS</h2>
-          </div>
+        </div>
+      </section>
+      <section class="testimonials text-center">
+        <div class="testimonials-content">
+          <h1 class="section-heading">Testimonials</h1>
+          <p>
+            As a machine quilter, I love the sheen of Glide and how it adds an
+            extra special touch to my quilts. It's the perfect blend of beauty
+            and strength. Not only do I love the thread, but I love working with
+            Hab+Dash to bring out the best in my quilting. They have been an
+            integral part of our Free Motion Quilting Challenges and helped meet
+            our thread needs each time.
+          </p>
+          <h3>-Angela Walters-</h3>
         </div>
       </section>
     </main>
@@ -99,6 +156,12 @@
     <footer class="mt-75 text-center">
       <p>&copy; 2024 My Website. All rights reserved.</p>
     </footer>
-    <!-- <script defer src="js/script.js"></script> -->
+
+    <!-- Glide.js JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"
+      defer
+    ></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
